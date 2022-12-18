@@ -4,9 +4,19 @@
   }
   .dropdown{
     left: 40%;
+    height: 30%;
   
   }
   :host ::ng-deep .p-dropdown {
     width: 14rem;
   }
-  
+  .head {width: 70px;
+    height: 85px;
+    top: 25%;
+    left: 40%;
+    margin-top: 10px;
+    margin-left: 3%;
+    z-index: 1;
+    font-size: 40px;
+    color:#495057;
+}

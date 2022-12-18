@@ -24,16 +24,14 @@
               "src/assets"
             ],
             "styles": [
-              
               "src/styles.css",
               "./node_modules/bootstrap/dist/css/bootstrap.min.css",
               "node_modules/primeng/resources/primeng.min.css",
               "node_modules/primeicons/primeicons.css"
-              
             ],
             "scripts": [
-
-            "./node_modules/bootstrap/dist/js/bootstrap.min.js"]
+              "./node_modules/bootstrap/dist/js/bootstrap.min.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -71,7 +69,6 @@
           "options": {
             "browserTarget": "crazyCrypto:build",
             "proxyConfig": "proxy.conf.json"
-
           },
           "configurations": {
             "production": {
@@ -128,6 +125,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "crazyCrypto"
+    }
+  },
+  "defaultProject": "crazyCrypto",
+  "cli": {
+    "analytics": "41ece369-8694-45ae-b903-7bfc5fb2e47f"
+  }
 }

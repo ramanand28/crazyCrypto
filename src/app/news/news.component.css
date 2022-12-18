@@ -2,6 +2,7 @@
     display: inline-flex;
     padding: 10px;
     border: yellow;
+    text-align: center;
 }
 
 .head {width: 70px;
@@ -14,3 +15,14 @@
     font-size: 40px;
     color:#495057;
 }
+
+.center {
+    position: absolute;
+    left: 55%;
+    top: 40%;
+    
+    transform: translate(-50%, -50%);
+
+    width: 94%;
+    height: 60%;
+  }
