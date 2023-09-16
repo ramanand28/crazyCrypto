@@ -16,10 +16,12 @@ export class DataService {
 
   getChartData(id:any){
     let idd:string=id['id'];
-    console.log(id['id'])
+   // console.log(id['id'])
     return this.http.get(`https://zigzag-principled-cough.glitch.me/chartdata?id=${idd}`);
   }
   getIds(){
     return this.http.get<any>('https://zigzag-principled-cough.glitch.me/ids')
   }
 }
+git config --global user.email "arc23453@gmail.com"
+git config --global user.name "ramanand28"
